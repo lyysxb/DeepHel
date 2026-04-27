@@ -1,0 +1,6 @@
+model_state/best_combined_model_ath.pth filter=lfs diff=lfs merge=lfs -text
+model_state/best_combined_model_crass.pth filter=lfs diff=lfs merge=lfs -text
+model_state/best_combined_model_maize.pth filter=lfs diff=lfs merge=lfs -text
+model_state/best_combined_model_oxy.pth filter=lfs diff=lfs merge=lfs -text
+model_state/best_combined_model_ory.pth filter=lfs diff=lfs merge=lfs -text
+data/athaliana.fa filter=lfs diff=lfs merge=lfs -text

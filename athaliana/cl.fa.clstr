@@ -1,0 +1,507 @@
+>Cluster 0
+0	12738nt, >NC_003070.9_13371474-13386482_members.fa.aln.fa... *
+>Cluster 1
+0	4613nt, >NC_003070.9_19731889-19736584_members.fa.aln.fa... *
+>Cluster 2
+0	4061nt, >NC_003070.9_10524717-10529670_members.fa.aln.fa... *
+>Cluster 3
+0	3687nt, >NC_003070.9_19234708-19237401_members.fa.aln.fa... *
+>Cluster 4
+0	3426nt, >NC_003074.8_19776681-19779665_members.fa.aln.fa... *
+>Cluster 5
+0	3392nt, >NC_003075.7_10283830-10286990_members.fa.aln.fa... *
+>Cluster 6
+0	3390nt, >NC_003070.9_19290345-19292787_members.fa.aln.fa... *
+1	3388nt, >NC_003075.7_8740912-8744316_members.fa.aln.fa... at +/100.00%
+>Cluster 7
+0	2983nt, >NC_003071.7_10036535-10040019_members.fa.aln.fa... *
+>Cluster 8
+0	2786nt, >NC_003070.9_13211357-13214178_members.fa.aln.fa... *
+>Cluster 9
+0	2613nt, >NC_003071.7_14858764-14860846_members.fa.aln.fa... at +/100.00%
+1	2614nt, >NC_003076.8_5643928-5646859_members.fa.aln.fa... *
+>Cluster 10
+0	2448nt, >NC_003070.9_19145625-19148625_members.fa.aln.fa... *
+>Cluster 11
+0	2388nt, >NC_003076.8_20278613-20281984_members.fa.aln.fa... *
+>Cluster 12
+0	2383nt, >NC_003071.7_10018073-10020456_members.fa.aln.fa... *
+1	2383nt, >NC_003076.8_13619617-13622003_members.fa.aln.fa... at +/100.00%
+2	2379nt, >NC_003076.8_14002783-14005021_members.fa.aln.fa... at +/100.00%
+3	2383nt, >NC_003074.8_12659617-12661999_members.fa.aln.fa... at +/100.00%
+4	2381nt, >NC_003071.7_6852644-6855035_members.fa.aln.fa... at +/100.00%
+5	2383nt, >NC_003071.7_6678450-6680830_members.fa.aln.fa... at +/100.00%
+6	2373nt, >NC_003070.9_16987718-16989948_members.fa.aln.fa... at +/99.96%
+7	2380nt, >NC_003070.9_7281698-7284083_members.fa.aln.fa... at +/99.96%
+8	2378nt, >NC_003074.8_10509519-10511754_members.fa.aln.fa... at +/100.00%
+9	2381nt, >NC_003070.9_11407758-11410300_members.fa.aln.fa... at +/100.00%
+10	2383nt, >NC_003076.8_2603151-2605539_members.fa.aln.fa... at +/100.00%
+11	2381nt, >NC_003070.9_11706451-11708855_members.fa.aln.fa... at +/100.00%
+12	2380nt, >NC_003076.8_13547008-13549264_members.fa.aln.fa... at +/99.96%
+13	2381nt, >NC_003075.7_1280625-1283022_members.fa.aln.fa... at +/100.00%
+>Cluster 13
+0	2338nt, >NC_003076.8_14846588-14848820_members.fa.aln.fa... *
+>Cluster 14
+0	2330nt, >NC_003074.8_11243483-11246588_members.fa.aln.fa... *
+>Cluster 15
+0	2203nt, >NC_003070.9_11980302-11982101_members.fa.aln.fa... at +/98.73%
+1	2202nt, >NC_003075.7_6808219-6809898_members.fa.aln.fa... at +/99.14%
+2	2205nt, >NC_003075.7_5541418-5548713_members.fa.aln.fa... *
+3	2190nt, >NC_003074.8_16852236-16854256_members.fa.aln.fa... at +/90.82%
+4	2205nt, >NC_003076.8_9371972-9374094_members.fa.aln.fa... at +/99.05%
+5	2197nt, >NC_003071.7_4474420-4476296_members.fa.aln.fa... at +/98.95%
+>Cluster 16
+0	2182nt, >NC_003076.8_13617297-13619452_members.fa.aln.fa... at +/99.04%
+1	2185nt, >NC_003076.8_21100091-21100867_members.fa.aln.fa... *
+2	2176nt, >NC_003071.7_12876673-12877524_members.fa.aln.fa... at +/98.16%
+>Cluster 17
+0	2183nt, >NC_003074.8_2360591-2362775_members.fa.aln.fa... *
+1	2183nt, >NC_003074.8_22568549-22570734_members.fa.aln.fa... at +/100.00%
+2	2183nt, >NC_003076.8_19542718-19544912_members.fa.aln.fa... at +/100.00%
+>Cluster 18
+0	2125nt, >NC_003076.8_9590410-9592551_members.fa.aln.fa... *
+>Cluster 19
+0	2118nt, >NC_003074.8_11345762-11347659_members.fa.aln.fa... *
+>Cluster 20
+0	2076nt, >NC_003070.9_19465089-19466975_members.fa.rdmSubset.fa.aln.fa... at +/92.10%
+1	2075nt, >NC_003075.7_11360868-11362957_members.fa.rdmSubset.fa.aln.fa... at +/92.00%
+2	2096nt, >NC_003076.8_16356474-16358544_members.fa.aln.fa... *
+3	2077nt, >NC_003071.7_13335824-13338077_members.fa.rdmSubset.fa.aln.fa... at +/99.95%
+4	2073nt, >NC_003076.8_15604669-15606620_members.fa.rdmSubset.fa.aln.fa... at +/90.88%
+5	2076nt, >NC_003074.8_16561654-16563591_members.fa.rdmSubset.fa.aln.fa... at +/91.96%
+6	2077nt, >NC_003070.9_9816210-9818274_members.fa.rdmSubset.fa.aln.fa... at +/99.95%
+7	2077nt, >NC_003071.7_6923280-6925390_members.fa.rdmSubset.fa.aln.fa... at +/99.95%
+8	2077nt, >NC_003070.9_26169394-26171482_members.fa.aln.fa... at +/99.95%
+9	2094nt, >NC_003076.8_1896576-1898645_members.fa.aln.fa... at +/99.95%
+10	2077nt, >NC_003071.7_17253158-17255233_members.fa.rdmSubset.fa.aln.fa... at +/99.95%
+11	2084nt, >NC_003071.7_12800987-12803094_members.fa.aln.fa... at +/99.90%
+12	2076nt, >NC_003070.9_23213666-23215523_members.fa.rdmSubset.fa.aln.fa... at +/92.10%
+13	2076nt, >NC_003071.7_13266915-13269005_members.fa.aln.fa... at +/92.10%
+14	2073nt, >NC_003070.9_19061965-19064592_members.fa.rdmSubset.fa.aln.fa... at +/90.55%
+15	2086nt, >NC_003076.8_5427956-5430086_members.fa.aln.fa... at +/100.00%
+16	2077nt, >NC_003074.8_22118610-22120659_members.fa.aln.fa... at +/99.95%
+17	2074nt, >NC_003071.7_542309-544174_members.fa.rdmSubset.fa.aln.fa... at +/90.69%
+18	2076nt, >NC_003076.8_21530089-21531925_members.fa.rdmSubset.fa.aln.fa... at +/92.10%
+19	2076nt, >NC_003070.9_16824518-16826370_members.fa.rdmSubset.fa.aln.fa... at +/92.10%
+20	2094nt, >NC_003076.8_20680304-20682406_members.fa.aln.fa... at +/100.00%
+21	2073nt, >NC_003076.8_7153174-7154444_members.fa.rdmSubset.fa.aln.fa... at +/90.50%
+22	2074nt, >NC_003074.8_17142435-17144537_members.fa.rdmSubset.fa.aln.fa... at +/91.76%
+23	2087nt, >NC_003076.8_4780210-4782228_members.fa.aln.fa... at +/100.00%
+24	2076nt, >NC_003075.7_5539317-5541389_members.fa.rdmSubset.fa.aln.fa... at +/92.10%
+25	2074nt, >NC_003070.9_15939323-15941178_members.fa.rdmSubset.fa.aln.fa... at +/91.51%
+26	2074nt, >NC_003076.8_11025317-11027899_members.fa.aln.fa... at +/92.04%
+>Cluster 21
+0	2077nt, >NC_003074.8_17395979-17397300_members.fa.aln.fa... at +/99.86%
+1	2080nt, >NC_003071.7_1458839-1460925_members.fa.aln.fa... at +/99.86%
+2	2075nt, >NC_003076.8_15341212-15342701_members.fa.aln.fa... at +/99.76%
+3	2072nt, >NC_003076.8_17955540-17957188_members.fa.aln.fa... at +/99.86%
+4	2082nt, >NC_003070.9_8289504-8291572_members.fa.aln.fa... at +/99.95%
+5	2078nt, >NC_003070.9_17551184-17553010_members.fa.aln.fa... at +/99.86%
+6	2069nt, >NC_003074.8_9558189-9559684_members.fa.aln.fa... at +/97.00%
+7	2087nt, >NC_003076.8_8682979-8685091_members.fa.aln.fa... at +/99.90%
+8	2077nt, >NC_003071.7_19195410-19196784_members.fa.aln.fa... at +/99.86%
+9	2085nt, >NC_003075.7_6178442-6179575_members.fa.aln.fa... at +/99.90%
+10	2081nt, >NC_003070.9_19172044-19173824_members.fa.aln.fa... at +/99.95%
+11	2082nt, >NC_003070.9_19085099-19086857_members.fa.aln.fa... at +/100.00%
+12	2086nt, >NC_003075.7_312194-314269_members.fa.aln.fa... at +/100.00%
+13	2089nt, >NC_003075.7_7058603-7060698_members.fa.aln.fa... *
+14	2078nt, >NC_003071.7_12554034-12556205_members.fa.aln.fa... at +/99.95%
+15	2080nt, >NC_003076.8_5128489-5129834_members.fa.aln.fa... at +/99.95%
+16	2087nt, >NC_003070.9_12853924-12856021_members.fa.aln.fa... at +/100.00%
+17	2069nt, >NC_003076.8_13982127-13984323_members.fa.aln.fa... at +/98.36%
+18	2070nt, >NC_003076.8_13917282-13918790_members.fa.aln.fa... at +/94.98%
+19	2086nt, >NC_003075.7_6279022-6281551_members.fa.aln.fa... at +/99.95%
+20	2078nt, >NC_003070.9_2233817-2235168_members.fa.aln.fa... at +/99.86%
+21	2081nt, >NC_003074.8_10862396-10866062_members.fa.aln.fa... at +/99.76%
+22	2076nt, >NC_003071.7_5464912-5467004_members.fa.aln.fa... at +/99.90%
+>Cluster 22
+0	2069nt, >NC_003071.7_11285108-11287161_members.fa.aln.fa... at +/100.00%
+1	2060nt, >NC_003076.8_15042132-15043428_members.fa.rdmSubset.fa.aln.fa... at +/99.90%
+2	2070nt, >NC_003075.7_16863233-16865071_members.fa.rdmSubset.fa.aln.fa... at +/99.90%
+3	2070nt, >NC_003076.8_17365020-17367123_members.fa.rdmSubset.fa.aln.fa... at +/99.86%
+4	2075nt, >NC_003076.8_25264511-25265339_members.fa.aln.fa... *
+5	2053nt, >NC_003071.7_7111758-7112928_members.fa.rdmSubset.fa.aln.fa... at +/90.06%
+6	2065nt, >NC_003071.7_7168226-7169524_members.fa.rdmSubset.fa.aln.fa... at +/99.85%
+7	2074nt, >NC_003074.8_17061386-17063232_members.fa.rdmSubset.fa.aln.fa... at +/99.86%
+8	2050nt, >NC_003071.7_7813402-7814694_members.fa.aln.fa... at +/90.44%
+9	2074nt, >NC_003070.9_7035167-7037301_members.fa.rdmSubset.fa.aln.fa... at +/99.95%
+10	2071nt, >NC_003070.9_30250970-30253111_members.fa.aln.fa... at +/99.90%
+11	2067nt, >NC_003075.7_8063549-8065705_members.fa.aln.fa... at +/99.85%
+12	2054nt, >NC_003075.7_14390262-14390988_members.fa.rdmSubset.fa.aln.fa... at +/94.06%
+13	2069nt, >NC_003074.8_10556119-10557364_members.fa.rdmSubset.fa.aln.fa... at +/99.81%
+14	2055nt, >NC_003074.8_18018777-18019927_members.fa.rdmSubset.fa.aln.fa... at +/90.36%
+15	2061nt, >NC_003075.7_370788-372092_members.fa.rdmSubset.fa.aln.fa... at +/99.85%
+16	2068nt, >NC_003076.8_17796137-17796788_members.fa.rdmSubset.fa.aln.fa... at +/99.85%
+17	2071nt, >NC_003070.9_22620590-22622337_members.fa.aln.fa... at +/99.90%
+18	2072nt, >NC_003070.9_22449931-22452006_members.fa.rdmSubset.fa.aln.fa... at +/99.86%
+19	2072nt, >NC_003076.8_4312436-4314881_members.fa.aln.fa... at +/99.71%
+20	2059nt, >NC_003070.9_3413525-3414840_members.fa.aln.fa... at +/99.85%
+21	2073nt, >NC_003074.8_17275742-17277836_members.fa.rdmSubset.fa.aln.fa... at +/99.90%
+22	2075nt, >NC_003070.9_12364135-12365994_members.fa.rdmSubset.fa.aln.fa... at +/99.90%
+23	2046nt, >NC_003075.7_683211-684358_members.fa.aln.fa... at +/91.15%
+24	2075nt, >NC_003074.8_15937286-15939379_members.fa.rdmSubset.fa.aln.fa... at +/99.90%
+25	2069nt, >NC_003070.9_22991928-22994060_members.fa.aln.fa... at +/99.81%
+26	2073nt, >NC_003070.9_25962464-25963281_members.fa.aln.fa... at +/99.95%
+27	2057nt, >NC_003074.8_13327434-13328624_members.fa.rdmSubset.fa.aln.fa... at +/99.85%
+28	2074nt, >NC_003070.9_4785461-4787263_members.fa.rdmSubset.fa.aln.fa... at +/99.95%
+29	2053nt, >NC_003076.8_9557658-9559507_members.fa.aln.fa... at +/91.82%
+>Cluster 23
+0	2059nt, >NC_003070.9_6735864-6737382_members.fa.aln.fa... *
+>Cluster 24
+0	2041nt, >NC_003074.8_9766357-9767630_members.fa.aln.fa... *
+>Cluster 25
+0	2015nt, >NC_003070.9_16965847-16968238_members.fa.aln.fa... *
+1	2015nt, >NC_003076.8_10210112-10212223_members.fa.aln.fa... at +/100.00%
+>Cluster 26
+0	1966nt, >NC_003075.7_11224159-11225871_members.fa.aln.fa... *
+1	1955nt, >NC_003070.9_28310923-28312638_members.fa.aln.fa... at +/99.90%
+2	1957nt, >NC_003075.7_7346926-7348638_members.fa.aln.fa... at +/99.80%
+>Cluster 27
+0	1940nt, >NC_003076.8_24475278-24476591_members.fa.aln.fa... *
+>Cluster 28
+0	1862nt, >NC_003074.8_15503684-15505482_members.fa.aln.fa... *
+>Cluster 29
+0	1792nt, >NC_003074.8_15946053-15947980_members.fa.aln.fa... *
+>Cluster 30
+0	1770nt, >NC_003074.8_10836302-10838075_members.fa.aln.fa... *
+>Cluster 31
+0	1650nt, >NC_003074.8_15976777-15978135_members.fa.aln.fa... at +/93.94%
+1	1711nt, >NC_003074.8_10841550-10843367_members.fa.aln.fa... *
+>Cluster 32
+0	1670nt, >NC_003074.8_17985939-17986894_members.fa.aln.fa... *
+>Cluster 33
+0	1641nt, >NC_003075.7_6157512-6159514_members.fa.aln.fa... at +/91.65%
+1	1658nt, >NC_003076.8_17578475-17579584_members.fa.aln.fa... *
+2	1651nt, >NC_003076.8_10268919-10271035_members.fa.aln.fa... at +/95.28%
+>Cluster 34
+0	1650nt, >NC_003070.9_17107505-17111565_members.fa.aln.fa... *
+>Cluster 35
+0	1647nt, >NC_003070.9_12875876-12876928_members.fa.aln.fa... *
+>Cluster 36
+0	1584nt, >NC_003071.7_7022287-7023790_members.fa.aln.fa... *
+1	1553nt, >NC_003074.8_11694191-11695886_members.fa.aln.fa... at +/95.49%
+>Cluster 37
+0	1511nt, >NC_003076.8_14732179-14732803_members.fa.aln.fa... *
+>Cluster 38
+0	1495nt, >NC_003076.8_10714405-10715622_members.fa.aln.fa... *
+>Cluster 39
+0	1456nt, >NC_003076.8_7075323-7076715_members.fa.aln.fa... *
+>Cluster 40
+0	1443nt, >NC_003074.8_11110748-11112326_members.fa.aln.fa... *
+>Cluster 41
+0	1342nt, >NC_003074.8_10751116-10752365_members.fa.aln.fa... at +/100.00%
+1	1342nt, >NC_003074.8_17469786-17471127_members.fa.aln.fa... at +/100.00%
+2	1343nt, >NC_003071.7_8893527-8895166_members.fa.aln.fa... *
+3	1342nt, >NC_003076.8_23431529-23432884_members.fa.aln.fa... at +/100.00%
+>Cluster 42
+0	1318nt, >NC_003071.7_6414992-6419248_members.fa.aln.fa... *
+>Cluster 43
+0	1311nt, >NC_003074.8_19536475-19537816_members.fa.aln.fa... *
+1	1311nt, >NC_003076.8_19152406-19153746_members.fa.aln.fa... at +/100.00%
+>Cluster 44
+0	1276nt, >NC_003074.8_1571381-1572137_members.fa.aln.fa... at +/90.83%
+1	1303nt, >NC_003070.9_19767983-19769834_members.fa.aln.fa... *
+2	1294nt, >NC_003076.8_25904732-25905624_members.fa.aln.fa... at +/99.61%
+3	1278nt, >NC_003074.8_10320412-10321441_members.fa.aln.fa... at +/94.68%
+4	1295nt, >NC_003070.9_28161028-28162332_members.fa.aln.fa... at +/99.46%
+5	1295nt, >NC_003076.8_8353201-8354510_members.fa.aln.fa... at +/99.46%
+6	1292nt, >NC_003075.7_8802132-8802738_members.fa.aln.fa... at +/99.46%
+7	1294nt, >NC_003074.8_15484513-15485759_members.fa.aln.fa... at +/99.61%
+8	1293nt, >NC_003074.8_17776768-17778065_members.fa.aln.fa... at +/99.46%
+9	1294nt, >NC_003074.8_11967653-11968617_members.fa.aln.fa... at +/99.69%
+>Cluster 45
+0	1289nt, >NC_003070.9_12517267-12518588_members.fa.aln.fa... *
+>Cluster 46
+0	1274nt, >NC_003071.7_5607418-5608592_members.fa.aln.fa... *
+>Cluster 47
+0	1252nt, >NC_003070.9_13601689-13603051_members.fa.aln.fa... *
+>Cluster 48
+0	1226nt, >NC_003070.9_8740475-8741925_members.fa.aln.fa... *
+>Cluster 49
+0	1190nt, >NC_003071.7_715657-716848_members.fa.aln.fa... at +/99.33%
+1	1192nt, >NC_003071.7_8236254-8237425_members.fa.aln.fa... *
+2	1180nt, >NC_003076.8_9362599-9363801_members.fa.aln.fa... at +/97.97%
+>Cluster 50
+0	1185nt, >NC_003070.9_20624862-20626082_members.fa.aln.fa... *
+1	1163nt, >NC_003076.8_14289394-14290588_members.fa.aln.fa... at +/96.56%
+>Cluster 51
+0	1131nt, >NC_003074.8_18087047-18088200_members.fa.aln.fa... *
+>Cluster 52
+0	1123nt, >NC_003075.7_6339151-6340310_members.fa.aln.fa... *
+>Cluster 53
+0	1122nt, >NC_003071.7_7566549-7567625_members.fa.aln.fa... *
+>Cluster 54
+0	1109nt, >NC_003070.9_12873634-12875590_members.fa.aln.fa... *
+>Cluster 55
+0	1099nt, >NC_003070.9_9836508-9837584_members.fa.aln.fa... at +/100.00%
+1	1094nt, >NC_003075.7_792040-793143_members.fa.aln.fa... at +/100.00%
+2	1100nt, >NC_003075.7_1956610-1957717_members.fa.aln.fa... *
+>Cluster 56
+0	1061nt, >NC_003074.8_16727565-16728663_members.fa.aln.fa... at +/92.74%
+1	1061nt, >NC_003071.7_6657486-6658465_members.fa.aln.fa... at +/98.49%
+2	1072nt, >NC_003074.8_11535271-11539905_members.fa.aln.fa... *
+>Cluster 57
+0	1042nt, >NC_003071.7_17904369-17905415_members.fa.aln.fa... *
+>Cluster 58
+0	1039nt, >NC_003076.8_9544454-9545601_members.fa.aln.fa... *
+>Cluster 59
+0	989nt, >NC_003074.8_18948362-18949364_members.fa.aln.fa... at +/100.00%
+1	994nt, >NC_003075.7_13536672-13537670_members.fa.aln.fa... *
+2	971nt, >NC_003071.7_6411149-6412154_members.fa.aln.fa... at +/97.22%
+3	989nt, >NC_003076.8_10873661-10874658_members.fa.aln.fa... at +/100.00%
+4	971nt, >NC_003070.9_1160224-1161228_members.fa.aln.fa... at +/97.22%
+>Cluster 60
+0	981nt, >NC_003076.8_9368941-9369930_members.fa.aln.fa... *
+>Cluster 61
+0	978nt, >NC_003070.9_7833168-7834147_members.fa.aln.fa... *
+>Cluster 62
+0	948nt, >NC_003070.9_13980720-13981810_members.fa.aln.fa... *
+>Cluster 63
+0	937nt, >NC_003070.9_1275780-1276614_members.fa.aln.fa... *
+1	937nt, >NC_003070.9_8577160-8578073_members.fa.aln.fa... at +/100.00%
+>Cluster 64
+0	921nt, >NC_003075.7_18425739-18426665_members.fa.aln.fa... *
+>Cluster 65
+0	899nt, >NC_003071.7_19527918-19528860_members.fa.aln.fa... at +/99.89%
+1	907nt, >NC_003076.8_24435706-24436609_members.fa.aln.fa... *
+2	903nt, >NC_003074.8_5379338-5380237_members.fa.aln.fa... at +/100.00%
+3	903nt, >NC_003071.7_8854356-8855271_members.fa.aln.fa... at +/100.00%
+4	900nt, >NC_003071.7_11555402-11556306_members.fa.aln.fa... at +/100.00%
+5	904nt, >NC_003075.7_10870769-10871696_members.fa.aln.fa... at +/99.89%
+6	904nt, >NC_003076.8_18554307-18556463_members.fa.aln.fa... at +/100.00%
+7	903nt, >NC_003075.7_6911506-6912443_members.fa.aln.fa... at +/99.78%
+8	905nt, >NC_003071.7_240846-241924_members.fa.aln.fa... at +/100.00%
+9	902nt, >NC_003076.8_7833874-7834779_members.fa.aln.fa... at +/100.00%
+10	904nt, >NC_003070.9_21260142-21261031_members.fa.aln.fa... at +/100.00%
+11	901nt, >NC_003075.7_1301948-1302901_members.fa.aln.fa... at +/99.89%
+>Cluster 66
+0	892nt, >NC_003074.8_17116703-17117623_members.fa.aln.fa... *
+>Cluster 67
+0	873nt, >NC_003074.8_16677615-16678503_members.fa.aln.fa... at +/94.62%
+1	866nt, >NC_003076.8_16030544-16031388_members.fa.aln.fa... at +/97.23%
+2	864nt, >NC_003071.7_14571894-14572747_members.fa.aln.fa... at +/94.44%
+3	866nt, >NC_003070.9_20172057-20172809_members.fa.aln.fa... at +/94.34%
+4	866nt, >NC_003071.7_7093820-7094574_members.fa.aln.fa... at +/94.00%
+5	881nt, >NC_003076.8_19912701-19913547_members.fa.aln.fa... at +/97.84%
+6	872nt, >NC_003070.9_20513673-20514575_members.fa.aln.fa... at +/96.90%
+7	880nt, >NC_003071.7_8172835-8173700_members.fa.aln.fa... at +/98.98%
+8	876nt, >NC_003071.7_6901190-6901922_members.fa.aln.fa... at +/98.97%
+9	873nt, >NC_003074.8_5590758-5591638_members.fa.aln.fa... at +/95.42%
+10	877nt, >NC_003070.9_29774248-29775140_members.fa.aln.fa... at +/99.09%
+11	865nt, >NC_003074.8_8596104-8596970_members.fa.aln.fa... at +/99.19%
+12	874nt, >NC_003071.7_10996181-10997043_members.fa.aln.fa... at +/97.37%
+13	865nt, >NC_003074.8_19529023-19529767_members.fa.aln.fa... at +/93.87%
+14	876nt, >NC_003070.9_21615280-21616151_members.fa.aln.fa... at +/96.23%
+15	862nt, >NC_003070.9_18300269-18301142_members.fa.aln.fa... at +/92.92%
+16	873nt, >NC_003075.7_7230734-7231603_members.fa.aln.fa... at +/95.53%
+17	877nt, >NC_003075.7_6168355-6169229_members.fa.aln.fa... at +/95.55%
+18	873nt, >NC_003070.9_696474-697374_members.fa.aln.fa... at +/97.37%
+19	869nt, >NC_003071.7_1038049-1038931_members.fa.aln.fa... at +/96.55%
+20	875nt, >NC_003071.7_7350651-7351547_members.fa.aln.fa... at +/96.11%
+21	877nt, >NC_003076.8_26891638-26893399_members.fa.aln.fa... at +/97.15%
+22	872nt, >NC_003070.9_11669357-11670245_members.fa.aln.fa... at +/94.50%
+23	872nt, >NC_003076.8_8601819-8602694_members.fa.aln.fa... at +/95.87%
+24	863nt, >NC_003074.8_11455550-11456305_members.fa.aln.fa... at +/95.02%
+25	883nt, >NC_003070.9_5436899-5437789_members.fa.aln.fa... *
+26	876nt, >NC_003070.9_8538889-8539763_members.fa.aln.fa... at +/95.78%
+>Cluster 68
+0	858nt, >NC_003074.8_10900762-10901662_members.fa.aln.fa... *
+1	851nt, >NC_003071.7_3197618-3198523_members.fa.aln.fa... at +/97.77%
+>Cluster 69
+0	851nt, >NC_003074.8_4795954-4796829_members.fa.aln.fa... *
+>Cluster 70
+0	817nt, >NC_003071.7_7178022-7179018_members.fa.aln.fa... *
+>Cluster 71
+0	808nt, >NC_003074.8_16185372-16186180_members.fa.aln.fa... at +/100.00%
+1	807nt, >NC_003075.7_8421099-8421906_members.fa.aln.fa... at +/100.00%
+2	807nt, >NC_003076.8_21174423-21175218_members.fa.aln.fa... at +/100.00%
+3	807nt, >NC_003076.8_17359320-17360102_members.fa.aln.fa... at +/100.00%
+4	809nt, >NC_003070.9_5798738-5799548_members.fa.aln.fa... at +/100.00%
+5	808nt, >NC_003076.8_19018620-19019568_members.fa.aln.fa... at +/99.88%
+6	808nt, >NC_003074.8_7713547-7714370_members.fa.aln.fa... at +/100.00%
+7	807nt, >NC_003070.9_18632138-18632951_members.fa.aln.fa... at +/100.00%
+8	808nt, >NC_003075.7_6943761-6944582_members.fa.aln.fa... at +/100.00%
+9	807nt, >NC_003076.8_10187480-10188288_members.fa.aln.fa... at +/100.00%
+10	810nt, >NC_003076.8_13786536-13787338_members.fa.aln.fa... *
+11	806nt, >NC_003074.8_14559079-14559859_members.fa.aln.fa... at +/100.00%
+>Cluster 72
+0	790nt, >NC_003070.9_10579423-10580141_members.fa.aln.fa... *
+>Cluster 73
+0	778nt, >NC_003074.8_3987678-3988438_members.fa.aln.fa... *
+1	760nt, >NC_003074.8_7291164-7291968_members.fa.aln.fa... at +/98.29%
+2	778nt, >NC_003075.7_7403990-7404794_members.fa.aln.fa... at +/100.00%
+3	778nt, >NC_003070.9_3771042-3771816_members.fa.aln.fa... at +/100.00%
+>Cluster 74
+0	767nt, >NC_003076.8_15779044-15779823_members.fa.aln.fa... at +/100.00%
+1	767nt, >NC_003074.8_10082060-10082829_members.fa.aln.fa... at +/100.00%
+2	768nt, >NC_003070.9_18765854-18766621_members.fa.aln.fa... *
+3	767nt, >NC_003075.7_8957982-8958747_members.fa.aln.fa... at +/100.00%
+4	767nt, >NC_003076.8_4970259-4971024_members.fa.aln.fa... at +/100.00%
+5	767nt, >NC_003076.8_9762353-9763122_members.fa.aln.fa... at +/100.00%
+>Cluster 75
+0	741nt, >NC_003075.7_7830149-7830907_members.fa.aln.fa... *
+1	728nt, >NC_003071.7_19413916-19414655_members.fa.aln.fa... at +/100.00%
+2	734nt, >NC_003070.9_18980632-18981378_members.fa.aln.fa... at +/100.00%
+>Cluster 76
+0	736nt, >NC_003075.7_1100277-1101060_members.fa.aln.fa... *
+>Cluster 77
+0	666nt, >NC_003074.8_14836924-14837428_members.fa.aln.fa... *
+1	648nt, >NC_003076.8_10072235-10072881_members.fa.aln.fa... at +/98.61%
+>Cluster 78
+0	650nt, >NC_003070.9_11987777-11988423_members.fa.aln.fa... *
+1	646nt, >NC_003076.8_13828632-13829285_members.fa.aln.fa... at +/99.85%
+2	646nt, >NC_003075.7_9283767-9284431_members.fa.aln.fa... at +/99.85%
+3	644nt, >NC_003076.8_14956050-14956767_members.fa.aln.fa... at +/99.22%
+4	645nt, >NC_003070.9_21428159-21428756_members.fa.aln.fa... at +/99.84%
+5	646nt, >NC_003075.7_6505629-6506269_members.fa.aln.fa... at +/100.00%
+6	634nt, >NC_003070.9_6074883-6075498_members.fa.aln.fa... at +/99.37%
+7	646nt, >NC_003075.7_15816039-15816687_members.fa.aln.fa... at +/100.00%
+8	649nt, >NC_003070.9_22828608-22829274_members.fa.aln.fa... at +/99.85%
+9	634nt, >NC_003075.7_8836500-8837147_members.fa.aln.fa... at +/99.53%
+10	645nt, >NC_003075.7_6140446-6140963_members.fa.aln.fa... at +/99.84%
+>Cluster 79
+0	645nt, >NC_003070.9_20703909-20704575_members.fa.aln.fa... *
+1	645nt, >NC_003071.7_6261940-6263204_members.fa.aln.fa... at +/100.00%
+>Cluster 80
+0	617nt, >NC_003071.7_6629271-6629876_members.fa.aln.fa... at +/98.06%
+1	620nt, >NC_003071.7_1075829-1076409_members.fa.aln.fa... at +/98.23%
+2	622nt, >NC_003070.9_3342445-3343055_members.fa.aln.fa... *
+>Cluster 81
+0	608nt, >NC_003070.9_16791844-16792477_members.fa.aln.fa... *
+1	606nt, >NC_003071.7_7650362-7650982_members.fa.aln.fa... at +/100.00%
+>Cluster 82
+0	605nt, >NC_003070.9_10867127-10867733_members.fa.aln.fa... at +/99.83%
+1	605nt, >NC_003074.8_11166789-11167394_members.fa.aln.fa... at +/100.00%
+2	607nt, >NC_003075.7_7838347-7838942_members.fa.aln.fa... *
+>Cluster 83
+0	605nt, >NC_003071.7_19268594-19269201_members.fa.aln.fa... *
+>Cluster 84
+0	597nt, >NC_003075.7_9146438-9147023_members.fa.aln.fa... *
+1	596nt, >NC_003070.9_21335942-21336550_members.fa.aln.fa... at +/99.50%
+2	597nt, >NC_003075.7_6894948-6895543_members.fa.aln.fa... at +/98.99%
+3	597nt, >NC_003070.9_20508836-20509422_members.fa.aln.fa... at +/97.15%
+4	596nt, >NC_003074.8_18146509-18147123_members.fa.aln.fa... at +/98.99%
+5	593nt, >NC_003075.7_6414054-6414643_members.fa.aln.fa... at +/98.99%
+6	590nt, >NC_003070.9_9918453-9919332_members.fa.aln.fa... at +/99.32%
+7	590nt, >NC_003071.7_11597289-11597879_members.fa.aln.fa... at +/98.98%
+8	595nt, >NC_003074.8_19520640-19521256_members.fa.aln.fa... at +/99.16%
+9	596nt, >NC_003070.9_29078413-29079033_members.fa.aln.fa... at +/99.83%
+10	586nt, >NC_003074.8_10681377-10681965_members.fa.aln.fa... at +/98.46%
+11	597nt, >NC_003070.9_11174210-11174820_members.fa.aln.fa... at +/98.83%
+12	593nt, >NC_003076.8_20674234-20674822_members.fa.aln.fa... at +/99.49%
+13	597nt, >NC_003076.8_23661987-23662589_members.fa.aln.fa... at +/99.50%
+14	595nt, >NC_003074.8_15918082-15918710_members.fa.aln.fa... at +/99.16%
+15	591nt, >NC_003070.9_12183376-12183991_members.fa.aln.fa... at +/94.59%
+16	586nt, >NC_003070.9_2587812-2588462_members.fa.aln.fa... at +/99.83%
+17	592nt, >NC_003070.9_17605549-17606135_members.fa.aln.fa... at +/99.16%
+18	595nt, >NC_003070.9_8189960-8190566_members.fa.aln.fa... at +/99.50%
+19	595nt, >NC_003076.8_9545738-9546340_members.fa.aln.fa... at +/99.83%
+20	591nt, >NC_003076.8_9978580-9979202_members.fa.aln.fa... at +/99.15%
+21	596nt, >NC_003071.7_4758076-4758697_members.fa.aln.fa... at +/99.16%
+>Cluster 85
+0	575nt, >NC_003076.8_14612585-14613076_members.fa.aln.fa... *
+>Cluster 86
+0	555nt, >NC_003071.7_8907450-8908017_members.fa.aln.fa... at +/99.10%
+1	567nt, >NC_003076.8_22463650-22464202_members.fa.aln.fa... *
+>Cluster 87
+0	552nt, >NC_003074.8_18885624-18887517_members.fa.aln.fa... at +/99.46%
+1	562nt, >NC_003070.9_10021414-10021962_members.fa.rdmSubset.fa.aln.fa... at +/99.29%
+2	562nt, >NC_003075.7_12365061-12365606_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+3	560nt, >NC_003071.7_1409568-1410155_members.fa.aln.fa... at -/99.29%
+4	563nt, >NC_003074.8_21552101-21552658_members.fa.aln.fa... at +/99.47%
+5	561nt, >NC_003074.8_19739757-19740371_members.fa.aln.fa... at +/99.64%
+6	564nt, >NC_003076.8_24586630-24587067_members.fa.aln.fa... at +/99.29%
+7	563nt, >NC_003074.8_3080020-3080595_members.fa.aln.fa... at +/99.47%
+8	562nt, >NC_003071.7_15134223-15134772_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+9	561nt, >NC_003074.8_11314999-11315563_members.fa.rdmSubset.fa.aln.fa... at +/100.00%
+10	563nt, >NC_003075.7_9111580-9112131_members.fa.rdmSubset.fa.aln.fa... at +/99.29%
+11	561nt, >NC_003076.8_13892118-13892686_members.fa.rdmSubset.fa.aln.fa... at +/99.82%
+12	561nt, >NC_003074.8_10717778-10718345_members.fa.rdmSubset.fa.aln.fa... at +/99.82%
+13	560nt, >NC_003071.7_9433078-9433574_members.fa.aln.fa... at +/99.82%
+14	558nt, >NC_003074.8_15812961-15814501_members.fa.aln.fa... at +/99.64%
+15	559nt, >NC_003074.8_17402001-17402552_members.fa.aln.fa... at +/99.64%
+16	559nt, >NC_003071.7_19623079-19623646_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+17	563nt, >NC_003074.8_4584739-4585297_members.fa.aln.fa... at +/99.11%
+18	564nt, >NC_003074.8_11132202-11132776_members.fa.aln.fa... at +/99.47%
+19	559nt, >NC_003075.7_14457710-14458284_members.fa.rdmSubset.fa.aln.fa... at +/99.82%
+20	562nt, >NC_003070.9_17502231-17502808_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+21	562nt, >NC_003075.7_15441651-15442210_members.fa.rdmSubset.fa.aln.fa... at +/99.29%
+22	553nt, >NC_003076.8_19101552-19102139_members.fa.aln.fa... at +/98.55%
+23	560nt, >NC_003071.7_9859951-9860513_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+24	563nt, >NC_003074.8_7980083-7980633_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+25	560nt, >NC_003074.8_5865858-5866429_members.fa.aln.fa... at +/99.64%
+26	561nt, >NC_003070.9_26510647-26511226_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+27	558nt, >NC_003070.9_27240718-27241282_members.fa.rdmSubset.fa.aln.fa... at +/99.82%
+28	560nt, >NC_003070.9_21918433-21918984_members.fa.rdmSubset.fa.aln.fa... at +/100.00%
+29	565nt, >NC_003076.8_6701927-6702439_members.fa.aln.fa... *
+30	560nt, >NC_003070.9_23125131-23125693_members.fa.rdmSubset.fa.aln.fa... at +/99.82%
+31	563nt, >NC_003071.7_13101810-13102362_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+32	563nt, >NC_003070.9_5862947-5863514_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+33	560nt, >NC_003076.8_7700634-7701191_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+34	563nt, >NC_003070.9_540433-540991_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+35	564nt, >NC_003070.9_20205338-20205906_members.fa.aln.fa... at +/99.29%
+36	560nt, >NC_003074.8_23085530-23086095_members.fa.rdmSubset.fa.aln.fa... at +/100.00%
+37	563nt, >NC_003074.8_16405196-16405775_members.fa.rdmSubset.fa.aln.fa... at +/99.29%
+38	560nt, >NC_003075.7_1521256-1521819_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+39	564nt, >NC_003076.8_4936960-4937509_members.fa.aln.fa... at +/99.11%
+40	559nt, >NC_003076.8_7417319-7417908_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+41	559nt, >NC_003071.7_7340360-7340952_members.fa.aln.fa... at +/99.82%
+42	562nt, >NC_003071.7_1669790-1670334_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+43	561nt, >NC_003076.8_24117961-24118551_members.fa.aln.fa... at +/99.64%
+44	561nt, >NC_003076.8_26787070-26787660_members.fa.aln.fa... at +/98.40%
+45	562nt, >NC_003074.8_16485307-16485869_members.fa.aln.fa... at +/99.47%
+46	562nt, >NC_003070.9_24645493-24646067_members.fa.aln.fa... at +/99.82%
+47	559nt, >NC_003076.8_17726415-17726985_members.fa.rdmSubset.fa.aln.fa... at +/100.00%
+48	560nt, >NC_003070.9_10591427-10592000_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+49	561nt, >NC_003070.9_12097455-12098017_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+50	563nt, >NC_003076.8_9068149-9068736_members.fa.aln.fa... at +/99.29%
+51	562nt, >NC_003070.9_11803534-11804094_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+52	563nt, >NC_003070.9_2587213-2587832_members.fa.aln.fa... at +/99.64%
+53	549nt, >NC_003070.9_16400448-16401039_members.fa.aln.fa... at +/99.45%
+54	554nt, >NC_003075.7_2553548-2553950_members.fa.aln.fa... at +/98.56%
+55	562nt, >NC_003074.8_10405395-10405959_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+56	564nt, >NC_003070.9_22192007-22192552_members.fa.aln.fa... at +/99.29%
+57	561nt, >NC_003076.8_13231667-13232076_members.fa.aln.fa... at +/99.64%
+58	563nt, >NC_003071.7_2138820-2139385_members.fa.rdmSubset.fa.aln.fa... at +/99.47%
+59	561nt, >NC_003070.9_4770115-4770665_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+60	561nt, >NC_003071.7_5010077-5010653_members.fa.rdmSubset.fa.aln.fa... at +/99.64%
+61	560nt, >NC_003071.7_5037751-5038332_members.fa.rdmSubset.fa.aln.fa... at +/100.00%
+>Cluster 88
+0	534nt, >NC_003070.9_13313486-13313922_members.fa.aln.fa... *
+>Cluster 89
+0	532nt, >NC_003075.7_11751722-11752252_members.fa.aln.fa... at +/93.05%
+1	533nt, >NC_003070.9_10221838-10222372_members.fa.aln.fa... *
+2	530nt, >NC_003071.7_9836480-9837019_members.fa.aln.fa... at +/93.21%
+3	530nt, >NC_003070.9_11782501-11783037_members.fa.aln.fa... at +/93.21%
+>Cluster 90
+0	508nt, >NC_003076.8_6171146-6171682_members.fa.aln.fa... *
+>Cluster 91
+0	436nt, >NC_003071.7_2734776-2735215_members.fa.aln.fa... at +/100.00%
+1	435nt, >NC_003074.8_19648140-19648587_members.fa.aln.fa... at +/100.00%
+2	435nt, >NC_003075.7_12713688-12714136_members.fa.aln.fa... at +/100.00%
+3	437nt, >NC_003074.8_18976715-18977156_members.fa.aln.fa... at +/99.77%
+4	427nt, >NC_003070.9_8374551-8375151_members.fa.aln.fa... at +/93.21%
+5	437nt, >NC_003075.7_16705423-16705864_members.fa.aln.fa... at +/100.00%
+6	438nt, >NC_003074.8_10791095-10791553_members.fa.aln.fa... *
+7	436nt, >NC_003070.9_10652493-10652930_members.fa.aln.fa... at +/99.77%
+8	437nt, >NC_003071.7_6946155-6946585_members.fa.aln.fa... at +/99.77%
+9	427nt, >NC_003070.9_9062084-9062520_members.fa.aln.fa... at +/99.30%
+10	437nt, >NC_003074.8_10908002-10908485_members.fa.aln.fa... at +/99.77%
+11	420nt, >NC_003071.7_510986-511343_members.fa.aln.fa... at +/99.05%
+12	425nt, >NC_003076.8_15212899-15213326_members.fa.aln.fa... at +/99.53%
+13	436nt, >NC_003074.8_16851389-16851847_members.fa.aln.fa... at +/99.77%
+14	435nt, >NC_003076.8_8177666-8178107_members.fa.aln.fa... at +/100.00%
+15	436nt, >NC_003074.8_15783153-15783593_members.fa.aln.fa... at +/100.00%
+16	436nt, >NC_003070.9_18287193-18287618_members.fa.aln.fa... at +/100.00%
+17	436nt, >NC_003075.7_2316089-2316526_members.fa.aln.fa... at +/100.00%
+>Cluster 92
+0	420nt, >NC_003071.7_11128812-11129233_members.fa.aln.fa... at +/90.95%
+1	424nt, >NC_003071.7_10406501-10407103_members.fa.aln.fa... *
+2	424nt, >NC_003076.8_18147553-18147918_members.fa.aln.fa... at +/90.09%
+3	408nt, >NC_003076.8_18113641-18114003_members.fa.aln.fa... at +/90.93%
+4	424nt, >NC_003076.8_26233116-26233530_members.fa.aln.fa... at +/90.80%
+>Cluster 93
+0	314nt, >NC_003070.9_16758564-16758927_members.fa.aln.fa... at +/100.00%
+1	329nt, >NC_003071.7_4592137-4592494_members.fa.aln.fa... *
+>Cluster 94
+0	287nt, >NC_003074.8_15936562-15936887_members.fa.aln.fa... *
