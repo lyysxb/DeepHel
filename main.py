@@ -12,12 +12,12 @@ from module.candidate_Util import Logger, file_exist, read_fasta
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Find candidate helitrons')
-    parser.add_argument('--out_dir', default="./f_oxy", help='Temporary output directory')
-    parser.add_argument('--genome', default="../data/f_oxy.fa", help='Reference genome file')
-    parser.add_argument('--threads', type=int, default=104, help='Number of threads')
+    parser.add_argument('--out_dir', default="./athaliana", help='Temporary output directory')
+    parser.add_argument('--genome', default="../data/athaliana.fa", help='Reference genome file')
+    parser.add_argument('--threads', type=int, default=48, help='Number of threads')
     parser.add_argument('--edge_threshold',default="20")
     parser.add_argument('--middle_zero_threshold',default="0.4")
-    parser.add_argument('--sp',default="oxy")
+    parser.add_argument('--sp',default="ath")
     #parser.add_argument('--debug', type=int, default=0, help='Debug mode')
     return parser.parse_args()
 
