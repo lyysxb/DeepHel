@@ -725,7 +725,7 @@ def main():
     
     complete_fasta, filtered_count = write_complete_fasta_with_filtered_sequences(reduce_fasta_file, filtered_sequences_data, output_dir)
     
-    filtered_only_fasta = write_filtered_fasta(filtered_sequences_data, output_dir, id_mapping)
+    #filtered_only_fasta = write_filtered_fasta(filtered_sequences_data, output_dir, id_mapping)
 
     #print(f"trim seq total: {filtered_count}")
     
