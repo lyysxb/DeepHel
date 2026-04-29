@@ -481,12 +481,6 @@ def filter_results_from_json(results_file, itr_ids, ltr_ids, prev_filtered_ids):
             else:
                 filtered_ids.append(seq_id)
         filtered_ids = set(filtered_ids)
-        #print(f"总共筛选出 {len(filtered_ids)} 个符合条件的序列ID")
-        #print(f"模式统计: ITRsearch={pattern_counts['itrsearch']}, "
-        #      f"LTRsearch={pattern_counts['ltrsearch']}, "
-        #      f"CACTA/TAGTG={pattern_counts['pattern_cacta']}, "
-        #      f"Poly_A/T={pattern_counts['pattern_poly_at']}, "
-        #      f"Pattern5={pattern_counts['pattern5']}, Pattern6={pattern_counts['pattern6']}")
         
     except Exception as e:
         print(f"fail read: {e}")
@@ -1095,21 +1089,10 @@ def remove_no_A_T_helitron(input_dir,hle2_file):
             region_CTRR,CTRR_region_start = extract_region_from_aln_v2(file_name, actual_end , 30)
             head_gap_count = count_gaps_in_single_sequence(records[0].seq,0,actual_start) 
             tail_gap_count = count_gaps_in_single_sequence(records[0].seq,actual_end,seq_length)
-            
-            
-            if True:                                 
-                if actual_start < 50 and (seq_length - actual_end) < 50:
-                    if consecutive_zero <= 5:
-                       continue
-                    if find_motif_positions_v3(region_TC[0],"TC",TC_region_start,"front") != -1:
-                       TC_start = find_motif_positions_v3(region_TC,"TC",TC_region_start,"front")
-                    else:
-                       TC_start = find_motif_positions_v1(region_TC[0],"TC",TC_region_start,"front")
-                       
-                    if find_motif_positions_v3(region_CTRR,"CT[AG]{2}",CTRR_region_start,'back') != -1:
-                       CTRR_start = find_motif_positions_v3(region_CTRR,"CT[AG]{2}",CTRR_region_start,'back')
-                    else:
-                       CTRR_start = find_motif_positions_v1(region_CTRR[0],"CT[AG]{2}",CTRR_region_start,'back')
+                                             
+            if actual_start < 50 and (seq_length - actual_end) < 50:
+                    TC_start = find_motif_positions_v3(region_TC,"TC",TC_region_start,"front")
+                    CTRR_start = find_motif_positions_v3(region_CTRR,"CT[AG]{2}",CTRR_region_start,'back')
                        
                     if TC_start == -1 or CTRR_start == -1:
                         continue
@@ -1123,28 +1106,40 @@ def remove_no_A_T_helitron(input_dir,hle2_file):
                         ctrr_np10 = np.mean(np.array(CTRR_region_sc))
                         if tc_np10 >= 0.8 and ctrr_np10 >= 0.8:
                             filter_ids.append(aln_result["id"])
-                else:
-                    if actual_start > 50 and (seq_length - actual_end) > 50 and tail_gap_count < 10 and head_gap_count < 10:
-                        TC_start = find_motif_positions_v3(region_TC, "TC", TC_region_start, "front")
-                        CTRR_start = find_motif_positions_v3(region_CTRR, "CT[AG]{2}", CTRR_region_start, 'back')
-                        if TC_start == -1 or CTRR_start == -1:
-                            continue
-                        CTRR_end = CTRR_start + 4
-                        TC_end = TC_start + 2
-                        insertion_list = get_bases_at_position(region_all,0,[TC_start-1, CTRR_end])
-                        TC_insertion_list = insertion_list[0]
-                        CTRR_insertion_list = insertion_list[1]
-                        TC_out_region5,_ = extract_region_from_aln(file_name, TC_start - 5, TC_start)
-                        CTRR_out_region5,_ = extract_region_from_aln(file_name, CTRR_end, CTRR_end + 5)
-                        if TC_start != -1 and CTRR_end != -1:
-                            TC_region_sc = calculate_homology_scores(TC_out_region5)
-                            CTRR_region_sc = calculate_homology_scores(CTRR_out_region5)
-                            tc_np5 = np.mean(np.array(TC_region_sc))
-                            ctrr_np5 = np.mean(np.array(CTRR_region_sc))
-                            if tc_np5 == 1 and ctrr_np5 == 1:
-                                if len(set(TC_insertion_list)) == 1 and len(set(CTRR_insertion_list)) == 1:
-                                    if TC_insertion_list[0] != "A" and CTRR_insertion_list[0] != "T":
-                                        filter_ids.append(aln_result["id"])                 
+            else:
+                    TC_start = find_motif_positions_v3(region_TC, "TC", TC_region_start, "front")
+                    CTRR_start = find_motif_positions_v3(region_CTRR, "CT[AG]{2}", CTRR_region_start, 'back')
+                    if CTRR_start == -1:
+                       continue
+                    CTRR_end = CTRR_start + 4
+                    insertion_site = get_bases_at_position(region_all,0,[CTRR_end])[0]
+                    CTRR_out_region5,_ = extract_region_from_aln(file_name, CTRR_end, CTRR_end + 5)
+                    CTRR_out_region15,_ = extract_region_from_aln(file_name, CTRR_end, CTRR_end + 15)
+                    CTRR_region_15 = calculate_homology_scores(CTRR_out_region15)
+                    CTRR_region_5 = calculate_homology_scores(CTRR_out_region5)
+                    ctrr_np5 = np.mean(np.array(CTRR_region_5))
+                    ctrr_np15 = np.mean(np.array(CTRR_region_15))
+                    if insertion_site != "T" and ctrr_np5 == 1 and ctrr_np15 >= 0.9:
+                       if "".join(region_all[0][CTRR_start:CTRR_end])=="CTAG":
+                          filter_ids.append(aln_result["id"])
+                    if TC_start == -1 or CTRR_start == -1:
+                       continue
+                    CTRR_end = CTRR_start + 4
+                    TC_end = TC_start + 2
+                    insertion_list = get_bases_at_position(region_all,0,[TC_start-1, CTRR_end])
+                    TC_insertion_list = insertion_list[0]
+                    CTRR_insertion_list = insertion_list[1]
+                    TC_out_region5,_ = extract_region_from_aln(file_name, TC_start - 5, TC_start)
+                    CTRR_out_region5,_ = extract_region_from_aln(file_name, CTRR_end, CTRR_end + 5)
+                    if TC_start != -1 and CTRR_end != -1:
+                       TC_region_sc = calculate_homology_scores(TC_out_region5)
+                       CTRR_region_sc = calculate_homology_scores(CTRR_out_region5)
+                       tc_np5 = np.mean(np.array(TC_region_sc))
+                       ctrr_np5 = np.mean(np.array(CTRR_region_sc))
+                       if tc_np5 == 1 and ctrr_np5 == 1:
+                          if len(set(TC_insertion_list)) == 1 and len(set(CTRR_insertion_list)) == 1:
+                             if TC_insertion_list[0] != "A" and CTRR_insertion_list[0] != "T":
+                                filter_ids.append(aln_result["id"])                 
             
         if copy_num == 5 or copy_num == 4 or copy_num == 3:
             region,_ = extract_region_from_aln(file_name, 0, 50)
@@ -1161,7 +1156,7 @@ def remove_no_A_T_helitron(input_dir,hle2_file):
                seq_str_2 = ''.join(region2[2])
                if seq_str_0 == seq_str_1 or seq_str_1 == seq_str_2 or seq_str_0 == seq_str_2:
                   filter_ids.append(aln_result["id"])                  
-            if actual_start > 50 and (seq_length - actual_end) > 50:
+            if True:
                 zero_window_count = int(aln_result["max_zero_counts"])
                 consecute_zero_count = int(aln_result["max_consecutive_zero"])
                 if True:
@@ -1295,7 +1290,7 @@ def main():
     #remove trf
     remove_trf("trf",out_fasta,final_fasta,input_trf_dir)
     safe_delete(itr_file)
-    safe_delete(ltr_file)
+    afe_delete(ltr_file)
     safe_delete(itr_log)
     safe_delete(ltr_log)
     safe_delete(filtered_file)
