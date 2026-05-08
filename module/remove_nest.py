@@ -249,6 +249,28 @@ def filter_segments_by_coverage_pattern(segments, coverage, threshold_ratio=0.3)
                 'end_right_avg': end_right_avg
             }))
         else:
+            if start_left_avg/start_right_avg < 0.1 and end_right_avg/end_left_avg < 0.55:
+               # On one side of the alignment curve, there may be some minor fluctuations, but the overall trend is a rapid decline. Therefore, if one end shows a drop of more than 90% while the other end only drops by more than 45%, we choose to recalculate an additional 50 base pairs outward to determine whether the decline meets the set threshold.
+               end_right_avg_true =  calculate_average_coverage(coverage, end_right_start+50, end_right_end+50)
+               if end_right_avg_true/end_left_avg <= min(threshold_ratio,0.3):
+                  filtered.append((seg_start, seg_end, {
+                      'start_left_avg': start_left_avg,
+                      'start_right_avg': start_right_avg,
+                      'end_left_avg': end_left_avg,
+                      'end_right_avg': end_right_avg
+                  }))
+                  continue
+              if end_right_avg/end_left_avg < 0.1 and start_left_avg/start_right_avg < 0.55:
+               start_left_avg_true = calculate_average_coverage(coverage,start_left_start-50, end_left_end-50)
+               if start_left_avg_true/start_right_avg <= min(threshold_ratio,0.3) and length >= 150:
+                  filtered.append((seg_start, seg_end, {
+                      'start_left_avg': start_left_avg,
+                      'start_right_avg': start_right_avg,
+                      'end_left_avg': end_left_avg,
+                      'end_right_avg': end_right_avg
+                  }))
+                  continue
+
             discarded.append((seg_start, seg_end, {
                 'start_left_avg': start_left_avg,
                 'start_right_avg': start_right_avg,
@@ -611,7 +633,7 @@ def main():
     fasta_file = input_dir + "/cl.fa"
     output_dir = input_dir + "/nest"
     gene_fasta = args.genome 
-    count_thre = 2
+    count_thre = 1.8
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
