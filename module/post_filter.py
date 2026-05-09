@@ -1290,7 +1290,7 @@ def main():
     #remove trf
     remove_trf("trf",out_fasta,final_fasta,input_trf_dir)
     safe_delete(itr_file)
-    afe_delete(ltr_file)
+    safe_delete(ltr_file)
     safe_delete(itr_log)
     safe_delete(ltr_log)
     safe_delete(filtered_file)
