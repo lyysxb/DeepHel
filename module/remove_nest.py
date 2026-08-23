@@ -311,7 +311,7 @@ def identify_peak_regions_to_remove(coverage,count_thre):
         # Find all positions above threshold
         above_threshold = coverage > threshold
         regions_to_remove = [(i, i+1) for i in range(len(above_threshold)) if above_threshold[i]]
-        regions_to_remove = merge_segments(regions_to_remove, gap_threshold=20)
+        regions_to_remove = merge_segments(regions_to_remove, gap_threshold=50)
         
         #print(f"Will remove {len(regions_to_remove)} bases with coverage > {threshold:.1f}")
     
